@@ -1,5 +1,8 @@
 {
-    "name": "postal-mime",
+    "name": "@arche-mc2/postal-mime",
+    "publishConfig": {
+        "registry": "https://verdaccio.emedisys.fr"
+      },
     "version": "2.4.2",
     "description": "Email parser for browser environments",
     "main": "./src/postal-mime.js",
@@ -20,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/postalsys/postal-mime.git"
+        "url": "git+https://github.com/medi6/postal-mime.git"
     },
     "bugs": {
         "url": "https://github.com/postalsys/postal-mime/issues"

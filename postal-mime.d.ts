@@ -1,4 +1,4 @@
-export type RawEmail = string | ArrayBuffer | Uint8Array | Blob | Buffer | ReadableStream;
+export type RawEmail = string | ArrayBuffer | Uint8Array | Blob | ReadableStream;
 
 export type Header = Record<string, string>;
 
